@@ -252,13 +252,31 @@ a:focus {
 
 #title {
     padding: 0;
+    color:#333;
 }
 
 #title .try {
-    font-size: 64px;
+    font-size: 50px;
+    line-height:140%
     position: absolute;
     top: -0.5em;
     left: 1.5em;
+    color:#555;
+
+    -webkit-transform: translateZ(20px);
+    -moz-transform:    translateZ(20px);
+    -ms-transform:     translateZ(20px);
+    -o-transform:      translateZ(20px);
+    transform:         translateZ(20px);
+}
+
+#title .tryafter {
+    font-size: 40px;
+    line-height:140%
+    position: absolute;
+    top: -0.5em;
+    left: 1.5em;
+    color:#aaa;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -268,8 +286,9 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 190px;
+    font-size: 80px;
 
+    
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
@@ -278,7 +297,13 @@ a:focus {
 }
 
 #title .footnote {
+    font-size: 40px;
+    color:#666;
+}
+
+#title .foottwo {
     font-size: 32px;
+    color:#777;
 }
 
 /*
@@ -701,3 +726,4 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
