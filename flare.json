@@ -1,0 +1,330 @@
+{
+  "name": "Finance",
+  "children": [
+    {
+      "name": "Markets",
+      "children": [
+        {
+          "name": "Bond",
+          "children": [
+            {
+              "name": "Valuation",
+              "size": 3938
+            },
+            {
+              "name": "Corporate",
+              "size": 3812
+            },
+            {
+              "name": "High-yield Debt",
+              "size": 6714
+            },
+            {
+              "name": "Securitization",
+              "size": 743
+            }
+          ]
+        },
+        {
+          "name": "Foreign Exchange",
+          "children": [
+            {
+              "name": "Currency",
+              "size": 3534
+            },
+            {
+              "name": "Exchange Rate",
+              "size": 5731
+            },
+            {
+              "name": "Flexibility",
+              "size": 7840
+            },
+            {
+              "name": "Managed Float Regime",
+              "size": 5914
+            },
+            {
+              "name": "Dollarization",
+              "size": 3416
+            }
+          ]
+        },
+        {
+          "name": "Money",
+          "children": [
+            {
+              "name": "Commodity",
+              "size": 7074
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instruments",
+      "children": [
+        {
+          "name": "Cash",
+          "size": 17010
+        },
+        {
+          "name": "Credit Line",
+          "size": 5842
+        },
+        {
+          "name": "Loan",
+          "children": [
+            {
+              "name": "Secured",
+              "size": 2202
+            },
+            {
+              "name": "Demand",
+              "size": 1382
+            },
+            {
+              "name": "Unsecured",
+              "size": 1629
+            },
+            {
+              "name": "Subsidized",
+              "size": 1675
+            },
+            {
+              "name": "Concessional",
+              "size": 2042
+            }
+          ]
+        },
+        {
+          "name": "Deposit",
+          "size": 1041
+        },
+        {
+          "name": "Derivative",
+          "size": 5176
+        },
+        {
+          "name": "Future Contract",
+          "size": 449
+        },
+        {
+          "name": "Option",
+          "size": 5593
+        },
+        {
+          "name": "Security",
+          "size": 5534
+        },
+        {
+          "name": "Stock",
+          "size": 9201
+        },
+        {
+          "name": "Time Deposit",
+          "size": 19975
+        },
+        {
+          "name": "Certificate of Deposit",
+          "size": 1116
+        }
+      ]
+    },
+    {
+      "name": "Corporate",
+      "children": [
+        {
+          "name": "Financial Accounting",
+          "children": [
+            {
+              "name": "Statement of Cash Flows",
+              "size": 721
+            },
+            {
+              "name": "Profit and Loss Statement",
+              "size": 4294
+            },
+            {
+              "name": "Statement of Financial Position",
+              "size": 9800
+            },
+            {
+              "name": "Changes in Equity",
+              "size": 1314
+            },
+            {
+              "name": "Notes to Financian Statement",
+              "size": 2220
+            }
+          ]
+        },
+        {
+          "name": "Managerial Finance",
+          "size": 1759
+        },
+        {
+          "name": "Management Accounting",
+          "size": 2165
+        },
+        {
+          "name": "Margers and Acquisitions",
+          "size": 586
+        },
+        {
+          "name": "Balance Sheet",
+          "size": 3331
+        },
+        {
+          "name": "Business Plan",
+          "size": 772
+        },
+        {
+          "name": "Corporate Action",
+          "size": 3322
+        }
+      ]
+    },
+    {
+      "name": "Personal",
+      "children": [
+        {
+          "name": "Credit/Debit",
+          "size": 8833
+        },
+        {
+          "name": "Employment Contract",
+          "size": 1732
+        },
+        {
+          "name": "Retirement",
+          "size": 3623
+        },
+        {
+          "name": "Personal Budget",
+          "size": 10066
+        }
+      ]
+    },
+    {
+      "name": "Public",
+      "children": [
+        {
+          "name": "Government Spending",
+          "size": 4116
+        },
+        {
+          "name": "Government Revenue",
+          "size": 4116
+        }
+      ]
+    },
+    {
+      "name": "Banks and Banking",
+      "children": [
+        {
+          "name": "Central Bank",
+          "size": 1082
+        },
+        {
+          "name": "Deposit Account",
+          "size": 1336
+        },
+        {
+          "name": "Fractional Reserve Banking",
+          "size": 319
+        },
+        {
+          "name": "Loan",
+          "size": 10498
+        },
+        {
+          "name": "Money Supply",
+          "size": 2822
+        },
+        {
+          "name": "World Bank System",
+          "size": 9983
+        }
+      ]
+    },
+    {
+      "name": "Regulation",
+      "children": [
+        {
+          "name": "Professional Certification",
+          "size": 1616
+        },
+        {
+          "name": "Accounting Scandals",
+          "size": 1027
+        },
+        {
+          "name": "Supervision of Stock Changes",
+          "size": 3891
+        },
+        {
+          "name": "Authority by Country",
+          "size": 891
+        },
+        {
+          "name": "Investment Management",
+          "size": 2893
+        },
+        {
+          "name": "Stock Exchanges",
+          "size": 5103
+        },
+        {
+          "name": "Banks and Financial Services",
+          "size": 3677
+        }
+      ]
+    },
+    {
+      "name": "Economic History",
+      "children": [
+        {
+          "name": "Econometrics",
+          "size": 2105
+        },
+        {
+          "name": "Economic Growth",
+          "size": 1316
+        },
+        {
+          "name": "Economic System",
+          "size": 3151
+        },
+        {
+          "name": "Experimental",
+          "size": 3770
+        },
+        {
+          "name": "Mathematical Economics",
+          "size": 2435
+        },
+        {
+          "name": "Game Theory",
+          "size": 4839
+        },
+        {
+          "name": "Market",
+          "size": 1756
+        },
+        {
+          "name": "National Accounting",
+          "size": 4268
+        },
+        {
+          "name": "Behavioral",
+          "size": 1821
+        },
+        {
+          "name": "Law",
+          "size": 5833
+        }
+      ]
+    }
+  ]
+}

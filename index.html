@@ -97,10 +97,13 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
 
-    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <!-- <script src="http://d3js.org/d3.v3.min.js"></script>-->
+    <script src="js/d3.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.rc.1/handlebars.min.js"></script>
+    
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ember.js/1.0.0-pre.2/ember-1.0.0-pre.2.min.js"></script>
+  
 
 
 
@@ -192,80 +195,31 @@
         
         Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
-        
+
+        It's HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+        <div id="bidirchart"></div>
+        <link href="css/bidir.css" rel="stylesheet">
+        <script src="https://cdn.rawgit.com/Neilos/bihisankey/master/bihisankey.js"></script>
+        <script src="js/bidir.js"></script>
     -->
-    <div class="step slide" data-x="0" data-y="-1500" >
-        <!--<img src="gcp-live-logo.png"> -->
-        <div id="bitcoin" >
-            <img  height="500px" src="bitcoin.jpg">
-        </div>
+
+
+
+    <div class="step slide" data-x="0" data-y="-1500">
+      <p> Much Sequencial Money Flow Data</p>
+      <p> Financial Entities </p>
+      <p> Influence </p>
+      <p style="font-size:40px"> One Chart </p>
+
     </div>
 
-    <div id="bitcoin" class="step" data-x="0" data-y="-3000" data-z="-1000" data-rotate="60" data-rotate-x="-90"  data-scale="1">
-        <img height="500px" src="6.jpg" style="border-radius=30px">
-    </div>
-
-    <div class="step" data-x="1000" data-y="-1500" data-z="-200">
-        <img id="6"src="img/6.png" height="100px">
-        <img id="2"src="img/2.png" height="150px">
-        <img id="3"src="img/3.png" height="150px">
-        <img id="8"src="img/8.png" height="100px">
-        <img id="4"src="img/4.png" height="150px">
-        <img id="5"src="img/5.png" height="250px">
-        <img id="1"src="img/1.png" height="300px">
-        <img id="10"src="img/10.png" height="200px">
-        <img id="11"src="img/11.png" height="250px">
-        <img id="12"src="img/12.png" height="200px">
-        <img id="7"src="img/7.png" height="150px">
-        
-        <img id="9"src="img/9.png" height="150px">
-    </div>
-
-
-    <div id="title" class="step" data-x="2000" data-y="-1500" data-z="-1000" data-rotate="90" data-rotate-x="-90"  data-scale="1">
-        <span class="try">Oil Price</span>  <span>  &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp</span>    <span class="tryafter">Economic Sanctions</span>
-        <h1> Russian Financial Crisis</h1>
-        <span class="footnote">Recession Trend</span>
-        <p></p>
-        <soan class="foottwo"> Public Trust </span> <span class="footnote">&nbsp &nbsp &nbsp Military intervention in Ukraine</span>
-    </div>
-
-    
-    <!--  test slide, here I put a comment ahead of each tag I added to make sure that I can get to each one at a short time-->
-
-    <!--
-    <div class="step" data-x="2000" data-y="-1500">
-      <div id="stack_div">
-            <link href="css/stack.css" rel="stylesheet" />
-	       <script src="js/stack.js"> </script>
-
-           <form>
-              <label><input type="radio" name="mode" value="grouped"> Grouped</label>
-              <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
-            </form>
-      </div>
-    </div>
-    -->
-    
-
-    <!--
-        
-        This is an example of step element being scaled.
-        
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-        
-      -->
-
-    
-    <div class="step" data-x="0" data-y="0" data-scale="4">
-        
+    <div class="step" data-x="1000" data-y="-1500" data-scale="1">
         <div id="hamilton">
             <script type="text/javascript" src="js/caret.js"></script>
             <script type="text/javascript" src="js/app.js"></script>
-            <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.min.css" type="text/css"></script>
+            <link href="css/bootstrap.min.css" rel="stylesheet" />
                 <style type="text/css">
                   .hamilton {
                     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
@@ -302,6 +256,154 @@
 
     </div>
 
+    <div class="step" data-x="0" data-y="0" data-scale="4">
+      <div style="text-align:center">
+        <img src="download.png" height="600px">
+      </div>
+    </div>
+
+    <!--
+    <div class="step" data-x="4000" data-y="-1500">
+
+      <div id="stack_div">
+            <link href="css/stack.css" rel="stylesheet" />
+         <script src="js/stack.js"> </script>
+
+           <form>
+              <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+              <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+            </form>
+      </div>
+    </div>
+  -->
+
+      
+    
+
+
+
+    <div id="title" class="step" data-x="2000" data-y="-1500" data-z="-1000" data-rotate="90" data-rotate-x="-90"  data-scale="1">
+        <style>
+            .nodestyle circle {
+              fill: #fff;
+              stroke: steelblue;
+              stroke-width: 1.5px;
+            }
+            .nodestyle {
+              font: 10px sans-serif;
+            }
+            .link {
+              fill: none;
+              stroke: #ccc;
+              stroke-width: 1.5px;
+            }
+        </style>
+
+        <div id="tree">
+            <script>
+
+            var diameter = 960;
+
+            var tree = d3.layout.tree()
+                .size([360, diameter / 2 - 120])
+                .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
+
+            var diagonal = d3.svg.diagonal.radial()
+                .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+
+            var svg = d3.select("#tree").append("svg")
+                .attr("width", diameter)
+                .attr("height", diameter - 150)
+              .append("g")
+                .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+            d3.json("flare.json", function(error, root) {
+              var nodes = tree.nodes(root),
+                  links = tree.links(nodes);
+
+              var link = svg.selectAll(".link")
+                  .data(links)
+                .enter().append("path")
+                  .attr("class", "link")
+                  .attr("d", diagonal);
+
+              var node = svg.selectAll(".node")
+                  .data(nodes)
+                .enter().append("g")
+                  .attr("class", "nodestyle")
+                  .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+
+              node.append("circle")
+                  .attr("r", 4.5);
+
+              node.append("text")
+                  .attr("dy", ".31em")
+                  .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+                  .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
+                  .text(function(d) { return d.name; });
+            });
+
+            d3.select(self.frameElement).style("height", diameter - 150 + "px");
+
+            </script>
+        </div>
+
+    </div>
+
+
+    <div class="step" data-x="2000" data-y="-1500" data-z="-2500" data-rotate="90" data-rotate-x="-90"  data-scale="1">
+      <div id="stack_div">
+            <link href="css/stack.css" rel="stylesheet" />
+         <script src="js/stack.js"> </script>
+
+           <form>
+              <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+              <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+            </form>
+      </div>
+    
+    </div>
+
+
+
+    <!--
+    <div id="title" class="step" data-x="2000" data-y="-1500" data-z="-1000" data-rotate="90" data-rotate-x="-90"  data-scale="1">
+        <span class="try">Oil Price</span>  <span>  &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp</span>    <span class="tryafter">Economic Sanctions</span>
+        <h1> Russian Financial Crisis</h1>
+        <span class="footnote">Recession Trend</span>
+        <p></p>
+        <soan class="foottwo"> Public Trust </span> <span class="footnote">&nbsp &nbsp &nbsp Military intervention in Ukraine</span>
+    </div>
+    -->
+    
+    <!--  test slide, here I put a comment ahead of each tag I added to make sure that I can get to each one at a short time-->
+
+    <!--
+   <div class="step" data-x="0" data-y="0" data-scale="4" >
+        <img src="gcp-live-logo.png">
+        <div id="butmap" >
+
+        </div>
+    </div>
+    -->
+    
+
+  
+
+    <!--
+        
+        This is an example of step element being scaled.
+        
+        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
+        element will be 4 times larger than the others.
+        From presentation and transitions point of view it means, that it will have to be scaled
+        down (4 times) to make it back to its correct size.
+        
+      -->
+
+    
+
+
     <!--
         
         This element introduces rotation.
@@ -310,13 +412,19 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p><strong>Currency And Trading</strong> <br/>
+    <div  class="step" data-x="850" data-y="4000" data-rotate="90" data-scale="5">
+
+        <p><strong>Abstraction</strong> <br/>
         </p>
+        <p style="font-size:40px">Money Flow</p>
+        <p style="font-size:40px">Finance Entities</p>
     </div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <img id="7"src="developers_logo.png" height="150px">
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="2">
+      <div id="bidirchart" stype=""></div>
+        <link href="css/bidir.css" rel="stylesheet">
+        <script src="https://cdn.rawgit.com/Neilos/bihisankey/master/bihisankey.js"></script>
+        <script src="js/bidir.js"></script>
     </div>
 
     <!--
@@ -328,10 +436,10 @@
         positioned far away from us (by 3000px).
         
     -->
-    <div  class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p id="tiny">Django</p>
-        <p id="trading">Trading Firm API</p>
-        <p> Machine Learning</p>
+    <div  class="step" data-x="2825" data-y="2325" data-z="-5000" data-rotate="300" data-scale="1">
+        <p id="tiny">Matrix</p>
+        <p id="trading"> Sankey Network </p>
+        <p> More </p>
     </div>
 
     <!--
@@ -354,15 +462,154 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <img src="sn.jpg" height="300px">
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="2">
+        <style type="text/css">
+        #fig {
+          width: 800px;
+          height: 800px;
+        }
+      </style>
+      <script type="text/javascript" src="js/miserables.js"></script>
+      <script type="text/javascript" src="js/protovis.js"></script>
+      <div id="center"><div id="fig">
+        <script type="text/javascript+protovis">
+          var color = pv.Colors.category19().by(function(d) d.group);
+
+          var vis = new pv.Panel()
+              .width(693)
+              .height(693)
+              .top(90)
+              .left(90);
+
+          var layout = vis.add(pv.Layout.Matrix)
+              .nodes(miserables.nodes)
+              .links(miserables.links)
+              .sort(function(a, b) b.group - a.group);
+
+          layout.link.add(pv.Bar)
+              .fillStyle(function(l) l.linkValue
+                  ? ((l.targetNode.group == l.sourceNode.group)
+                  ? color(l.sourceNode) : "#555") : "#eee")
+              .antialias(false)
+              .lineWidth(1);
+          layout.label.add(pv.Label)
+              .textStyle(color);
+          vis.render();
+        </script>
+      </div></div>
     </div>
 
     <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <img src="img/bbc.jpg" height="80px">
-        <img src="img/cnn.png" height="150px">
-        <img src="img/sky.png" height="80px">
-        <img src="img/usatoday.png" height="150px">
+      
+       <style>
+          #chord {
+            font: 10px sans-serif;
+          }
+
+          .chord path {
+            fill-opacity: .67;
+            stroke: #000;
+            stroke-width: .5px;
+          }
+          </style>
+          <div id="chord" >
+
+      <script>
+
+        var matrix = [
+          [11975,  5871, 8916, 2868],
+          [ 1951, 10048, 2060, 6171],
+          [ 8010, 16145, 8090, 8045],
+          [ 1013,   990,  940, 6907]
+        ];
+
+        var chord = d3.layout.chord()
+            .padding(.05)
+            .sortSubgroups(d3.descending)
+            .matrix(matrix);
+
+        var width = 960,
+            height = 500,
+            innerRadius = Math.min(width, height) * .41,
+            outerRadius = innerRadius * 1.1;
+
+        var fill = d3.scale.ordinal()
+            .domain(d3.range(4))
+            .range(["#000000", "#FFDD89", "#957244", "#F26223"]);
+
+        var svg = d3.select("#chord").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+          .append("g")
+            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        svg.append("g").selectAll("path")
+            .data(chord.groups)
+          .enter().append("path")
+            .style("fill", function(d) { return fill(d.index); })
+            .style("stroke", function(d) { return fill(d.index); })
+            .attr("d", d3.svg.arc().innerRadius(innerRadius).outerRadius(outerRadius))
+            .on("mouseover", fade(.1))
+            .on("mouseout", fade(1));
+
+        var ticks = svg.append("g").selectAll("g")
+            .data(chord.groups)
+          .enter().append("g").selectAll("g")
+            .data(groupTicks)
+          .enter().append("g")
+            .attr("transform", function(d) {
+              return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+                  + "translate(" + outerRadius + ",0)";
+            });
+
+        ticks.append("line")
+            .attr("x1", 1)
+            .attr("y1", 0)
+            .attr("x2", 5)
+            .attr("y2", 0)
+            .style("stroke", "#000");
+
+        ticks.append("text")
+            .attr("x", 8)
+            .attr("dy", ".35em")
+            .attr("transform", function(d) { return d.angle > Math.PI ? "rotate(180)translate(-16)" : null; })
+            .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+            .text(function(d) { return d.label; });
+
+        svg.append("g")
+            .attr("class", "chord")
+          .selectAll("path")
+            .data(chord.chords)
+          .enter().append("path")
+            .attr("d", d3.svg.chord().radius(innerRadius))
+            .style("fill", function(d) { return fill(d.target.index); })
+            .style("opacity", 1);
+
+        // Returns an array of tick angles and labels, given a group.
+        function groupTicks(d) {
+          var k = (d.endAngle - d.startAngle) / d.value;
+          return d3.range(0, d.value, 1000).map(function(v, i) {
+            return {
+              angle: v * k + d.startAngle,
+              label: i % 5 ? null : v / 1000 + "k"
+            };
+          });
+        }
+
+        // Returns an event handler for fading a given chord group.
+        function fade(opacity) {
+          return function(g, i) {
+            svg.selectAll(".chord path")
+                .filter(function(d) { return d.source.index != i && d.target.index != i; })
+              .transition()
+                .style("opacity", opacity);
+          };
+        }
+
+        </script>
+        </div>
+
+
     </div>
 
 
